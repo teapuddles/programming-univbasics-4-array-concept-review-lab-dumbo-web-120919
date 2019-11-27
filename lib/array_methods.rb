@@ -20,5 +20,11 @@ def find_max_value(array)
 end
 
 def find_min_value(array)
-  # Add your solution here
+   new_array = []
+  counter = 0 
+    while counter < array.length do
+      new_array << array.sort[counter]
+      counter += 1 
+    end
+    return new_array.shift 
 end
