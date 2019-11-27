@@ -10,7 +10,7 @@ end
 
 
 def find_max_value(array)
-  new array = []
+  new_array = []
   counter = 0 
     while counter < array.length do
       new_array << array.sort[counter]
